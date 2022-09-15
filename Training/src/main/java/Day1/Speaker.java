@@ -1,4 +1,9 @@
-public class Speaker implements Power,Volume,Playpause{
+package Day1;
+
+import Day1.Playpause;
+import Day1.Power;
+
+public class Speaker implements Power, Volume, Playpause {
 
 
     @Override
