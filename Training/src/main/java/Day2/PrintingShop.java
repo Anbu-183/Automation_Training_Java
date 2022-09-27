@@ -5,14 +5,17 @@ import java.util.Scanner;
 
 
 public class PrintingShop {
+//    static {
+//        System.out.println("Hello");
+//    }
     Scanner sc =new Scanner(System.in);
     String Size;
     int Piece;
     String Colour;
     PrintingShop(String Size,int Piece,String Colour){
-        System.out.println("Size of T shirt" +Size);
-        System.out.println("No of T shirt " +Piece);
-        System.out.println("Colur of T shirt"+Colour);
+//        System.out.println("Size of T shirt" +Size);
+//        System.out.println("No of T shirt " +Piece);
+//        System.out.println("Colur of T shirt"+Colour);
         this.Size= Size;
         this.Piece= Piece;
         this.Colour=Colour;
@@ -25,7 +28,8 @@ public class PrintingShop {
         m.nextInt();
         System.out.println("Colour of the Tshirt"+" ");
         m.next();
-//        System.out.println("Remaining Tshirt"+Piece-m.nextInt());
+//        System.out.println("Remaining Tshirts"+(Piece-);
+
 
 
     }
